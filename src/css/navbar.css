@@ -1,0 +1,131 @@
+/* INICIO NAVBAR PC*/
+.App #sidebar{
+    right: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    position: fixed;
+    color: white;
+    z-index: 3;
+}
+
+.App #sidebar img{
+    animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+    animation-delay: 2s, 3s;
+    height: 45px;
+}
+
+.App #sidebar .nav-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 50px;
+    height: 150px;
+    border-radius: 21px 21px 0px 0px;
+    background-color: #DA2644;
+}
+
+.App #sidebar .nav-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50px;
+    height: 150px;
+    border-radius: 0px 0px 21px 21px;
+    background-color: #DA2644;
+}
+/* FIN NAVBAR PC*/
+
+/* INICIO NAVBAR TELEFONO*/
+@media screen and (max-width:480px) {
+    .App #sidebar{
+        position: fixed;
+        bottom: 0;
+        height: 50px;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        z-index: 3;
+    }
+
+    .App #sidebar .nav-1{
+        display: flex;
+        width: 140px;
+        height: 50px;
+        flex-direction: row;
+        border-radius: 0px 21px 0px 0px;
+    }
+
+    .App #sidebar .nav-2{
+        display: flex;
+        width: 140px;
+        height: 50px;
+        flex-direction: row;
+        border-radius: 21px 0px 0px 0px;
+    }
+
+    .App #sidebar img{
+        animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+        animation-delay: 2s, 3s;
+        height: 45px;
+    }
+
+    /* INICIO ANIMACIONES LOGO NAVBAR*/
+    @keyframes zoomIn {
+        0%{
+            transform: scale(0);
+            opacity: 0;
+        }
+        100%{
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    @keyframes floatImage {
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(-15px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+    }
+    /* FIN ANIMACIONES LOGO NAVBAR*/
+
+}
+/* FIN NAVBAR TELEFONO*/
+
+/* INICIO ANIMACIONES LOGO NAVBAR*/
+@keyframes zoomIn {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes floatImage {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+/* FIN ANIMACIONES LOGO NAVBAR*/

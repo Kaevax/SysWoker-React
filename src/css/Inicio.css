@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.App #contenedor-prin{
+    position: absolute;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+
+ /*INICIO*/
+.App #contenedor-prin .Inicio{
+    background-image: url("https://brtechnosoft.com/wp-content/uploads/2022/02/web-design-and-web-development-background.jpeg");
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5vh;
+    margin-bottom: 70px;
+    height: 550px;
+    background-color: #DA2644;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.App #contenedor-prin .Inicio h1,p{
+        font-size: 3em;
+}
+
+.App #contenedor-prin .Inicio span{
+    font-weight: 700;
+}
+/* FIN INICIO*/
+
+/*PROYECTOS*/
+.App #contenedor-prin .Proyectos{
+    width: 90%;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    background-color: #DA2644;
+}
+
+.App #contenedor-prin .Proyectos h1{
+    margin: 20px;
+}
+/*FIN PROYECTOS*/
+
+@media screen and (max-width:480px) {
+    /*INICIO*/
+    .App #contenedor-prin{
+        top: 0;
+        left: 0;
+        width: 100%;
+        font-family: Poppins;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .App #contenedor-prin .Inicio{
+        background-color: #DA2644;
+        background-image: url("https://brtechnosoft.com/wp-content/uploads/2022/02/web-design-and-web-development-background.jpeg");
+        background-size: 800px 700px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 90%;
+        position: relative;
+        height: 30vh;
+        margin-bottom: 0px;
+    }
+
+    .App #contenedor-prin .Inicio h1,p{
+        font-size: 90%;
+    }
+
+    .App #contenedor-prin .Inicio span{
+        font-weight: 700;
+    }
+    /*FIN INICIO*/
+
+    /*PROYECTOS*/
+    .App #contenedor-prin .Proyectos{
+        margin-top: 100px;
+        width: 90%;
+        border-radius: 20px;
+        background-color: #DA2644;
+    }
+    /*FIN PROYECTOS*/
+}
