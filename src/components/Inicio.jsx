@@ -22,18 +22,18 @@ export function Maincontainer(props) {
         <div id="contenedor-prin">
             <div className="Inicio">
                 <div>
-                    <h1>Hola!</h1>
+                    <h1>{props.h1}</h1>
                     <p>Somos <span>SysWoker</span></p>
                 </div>
             </div>
 
             <div className="Proyectos">
-                <h1>Proyectos</h1>
+                <h1>{props.titulo}</h1>
                 <span></span>
                 <div>
-                    <h4>proyecto1</h4>
-                    <h4>proyecto1</h4>
-                    <h4>proyecto1</h4>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, iusto!</h4>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, iusto!</h4>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, iusto!</h4>
                 </div>
             </div>
         </div>

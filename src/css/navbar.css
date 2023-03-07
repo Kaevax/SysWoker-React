@@ -1,4 +1,5 @@
 /* INICIO NAVBAR PC*/
+
 .App #sidebar{
     right: 0;
     height: 100%;
@@ -23,9 +24,10 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    width: 50px;
-    height: 150px;
-    border-radius: 21px 21px 0px 0px;
+    margin-right: 20%;
+    width: 4em;
+    height: 12em;
+    border-radius: 21px 0px 0px 0px;
     background-color: #DA2644;
 }
 
@@ -34,15 +36,23 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    width: 50px;
-    height: 150px;
-    border-radius: 0px 0px 21px 21px;
+    width: 4em;
+    height: 12em;
+    margin-right: 20%;
+    border-radius: 0px 0px 0px 21px;
     background-color: #DA2644;
 }
 /* FIN NAVBAR PC*/
 
+
+
 /* INICIO NAVBAR TELEFONO*/
-@media screen and (max-width:480px) {
+@media screen and (max-width:480px) and (min-width:320px) {
+    .App{
+        width: 480px;
+    }
+
+
     .App #sidebar{
         position: fixed;
         bottom: 0;
@@ -51,7 +61,7 @@
         justify-content: space-between;
         width: 100%;
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         z-index: 3;
     }
 
@@ -61,6 +71,7 @@
         height: 50px;
         flex-direction: row;
         border-radius: 0px 21px 0px 0px;
+        margin: 0;
     }
 
     .App #sidebar .nav-2{
@@ -69,6 +80,7 @@
         height: 50px;
         flex-direction: row;
         border-radius: 21px 0px 0px 0px;
+        margin: 0px;
     }
 
     .App #sidebar img{
