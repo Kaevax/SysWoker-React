@@ -45,7 +45,8 @@ export function ContenedorSeccion(props){
                 <p>{props.parrafoImg11}</p>
             </div>
             <div className="elementos">
-
+                <h2>{props.h2}</h2>
+                <h2>{props.h3}</h2>
             </div>
         </div>
     );

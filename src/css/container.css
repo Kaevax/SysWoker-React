@@ -1,0 +1,40 @@
+
+
+.contenedorProp{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    display: flex;
+    width: 85%;
+    margin: auto;
+    background-color: #5C2D86;
+    border-radius: 20px;
+    height: 95vh;
+    margin-bottom: 2em;
+    flex-direction: column;
+}
+
+.contenedorProp .contenidoPrincipal{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.contenedorProp .contenidoPrincipal h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.contenedorProp .contenidoPrincipal p{
+    font-size: 25px;
+}
+
+.contenedorProp .imagesContainer{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 270px;
+    margin-top: 4em;
+}
