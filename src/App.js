@@ -31,6 +31,11 @@ function App() {
       img = {Img1}
       img2 = {Img2}
       />
+            <ContenedorSeccion id="hola"
+      h1 = "Habilidades secundarias"
+      img = {Img1}
+      img2 = {Img2}
+      />
 
     </div>
 

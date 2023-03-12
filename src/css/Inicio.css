@@ -11,6 +11,10 @@
     font-size: 30px;
 }
 
+.App #hola{
+    background-color: red;
+}
+
 
 /*INICIO*/
 .App #contenedor-prin .Inicio{
